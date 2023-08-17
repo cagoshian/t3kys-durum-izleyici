@@ -29,7 +29,7 @@ function bildirimGonder(yeniDurum) {
     })
 }
 
-console.log("-Teknofest Durum Değişikliği Algılama-")
+console.log("-T3KYS Durum Değişikliği Algılama-")
 
 let mevcutOlan = ""
 
@@ -41,7 +41,7 @@ setInterval(() => {
                 console.log("İlk Durum Kaydedildi: " + mevcutOlan)
             } else {
                 if (data == mevcutOlan) {
-                    console.log("Aynı Durum: " + data)
+                    console.log("Aynı Durum: " + mevcutOlan)
                 } else {
                     mevcutOlan = data
                     console.log("Yeni Durum Kaydedildi: " + mevcutOlan)
