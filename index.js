@@ -45,10 +45,10 @@ setInterval(() => {
                 } else {
                     mevcutOlan = data
                     console.log("Yeni Durum Kaydedildi: " + mevcutOlan)
-                    bildirimGonder(data);
+                    if (pushbullet_api_key != "") bildirimGonder(data);
                 }
             }
         }).catch(error => {
             console.error("T3KYS error: ", error);
         });
-}, 5000)
+}, 30000)
