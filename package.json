@@ -1,0 +1,10 @@
+{
+  "name": "t3kys-durum-izleyici",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
